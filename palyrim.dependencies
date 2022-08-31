@@ -1,0 +1,28 @@
+[
+ {
+   "repository" : "device_realme_sm8250-common",
+   "target_path": "device/realme/sm8250-common",
+   "branch"     : "thirteen"
+ },
+ {
+   "repository" : "realme-sm8250-devs/android_kernel_realme_sm8250",
+   "target_path": "kernel/realme/sm8250",
+   "branch"     : "arrow-13.0",
+   "remote"     : "github"
+ },
+ {
+   "repository" : "vendor_realme_bitra",
+   "target_path": "vendor/realme/bitra",
+   "branch"     : "tortilla"
+ },
+ {
+   "repository" : "vendor_realme_sm8250-common",
+   "target_path": "vendor/realme/sm8250-common",
+   "branch"     : "thirteen"
+ },
+ {
+   "repository" : "hardware_oplus",
+   "target_path": "hardware/oplus",
+   "branch"     : "tortilla"
+ }
+]
