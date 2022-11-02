@@ -59,3 +59,13 @@ PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-core/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui-v30.so \
     prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-sp/android.hardware.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.common-V1-ndk_platform.so \
     prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-sp/android.hardware.graphics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.graphics.common-V1-ndk_platform.so
+
+# Add some system props
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+persist.radio.add_power_save=1 \
+pm.sleep_mode=1 \
+ro.ril.disable.power.collapse=0 \
+ro.ril.fast.dormancy.rule=1 \
+ro.ril.fast.dormancy.timeout=3 \
+ro.mot.eri.losalert.delay=100 \
+persist.wm.enable_remote_keyguard_animation=0
