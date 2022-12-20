@@ -69,3 +69,7 @@ ro.ril.fast.dormancy.rule=1 \
 ro.ril.fast.dormancy.timeout=3 \
 ro.mot.eri.losalert.delay=100 \
 persist.wm.enable_remote_keyguard_animation=0
+
+# Palyrim Doze
+PRODUCT_PACKAGES += \
+   PalyrimDoze
