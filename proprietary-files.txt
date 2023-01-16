@@ -4,7 +4,6 @@
 ## from realme GT Neo2 5G (RMX3370_11.C.09).
 
 # ACDB
-odm/etc/acdbdata/Audio_Parameter_Version.txt
 odm/etc/acdbdata/Bluetooth_cal.acdb
 odm/etc/acdbdata/General_cal.acdb
 odm/etc/acdbdata/Global_cal.acdb
@@ -13,96 +12,132 @@ odm/etc/acdbdata/Hdmi_cal.acdb
 odm/etc/acdbdata/Headset_cal.acdb
 odm/etc/acdbdata/Speaker_cal.acdb
 
+# ADSP Modules
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_21619.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_se_hvx_skel_21619.so
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_21619.so
+
+# Audio
+odm/lib/libaudioEngineerTest.so
+odm/lib/liblvimfs.so
+odm/lib/liblvimfs_wrapper.so
+vendor/lib/hw/audio.primary.kona.so
+vendor/lib/liba2dpoffload.so
+vendor/lib/libextcamera_client.so
+vendor/lib/libgui1_vendor.so
+vendor/lib/libssrec.so
+vendor/lib/vendor.oplus.hardware.extcamera@1.0.so
+
 # Audio firmware
 odm/firmware/tfa98xx.cnt
 
+# Audio LVIMFS Params
+odm/etc/lvimfs_params/LVACFS_Configuration.txt
+odm/etc/lvimfs_params/LVIMFS_Calibration_2mic.dat
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID10_MIC_VR.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID11_HE.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID12_HE_APP1.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID13_HE_APP2.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID14_HE_Cam.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID15_HE_Conference.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID16_HE_Fast.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID17_HE_Interview.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID18_HE_Unprocess.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID19_HE_Voice.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID1_MIC_Normal.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID20_HE_VR.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID21_USB_Normal.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID22_USB_APP1.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID23_BT_Normal.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID24_BT_APP1.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID2_MIC_APP1.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID3_MIC_APP2.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID4_MIC_Cam.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID5_MIC_Conference.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID6_MIC_Fast.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID7_MIC_Interview.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID8_MIC_Unprocess.txt
+odm/etc/lvimfs_params/LVIMFS_Parameter_ID9_MIC_Voice.txt
+
 # Camera
 odm/etc/camera/ashdr/ncf_pack.ncf
-odm/etc/camera/ashdr/ncf_pack_imx471.ncf
-odm/etc/camera/ashdr/ncf_pack_imx481.ncf
-odm/etc/camera/ashdr/ncf_pack_imx586.ncf
 odm/etc/camera/darksight/darksight_main.bin
 odm/etc/camera/darksight/darksight_ultrawide.bin
-odm/etc/camera/calibrationOutput_uw.bin
-odm/etc/camera/distortion_result.bin
-odm/lib64/camera/components/com.oneplus.node.cfrsnapshot.so
-odm/lib64/camera/components/com.oneplus.node.cfrvideo.so
-odm/lib64/camera/com.qti.sensormodule.holitech_gc02m1b.bin
-odm/lib64/camera/com.qti.sensormodule.qtech_imx481.bin
-odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin
-odm/lib64/camera/com.qti.sensormodule.shine_gc5035.bin
-odm/lib64/camera/com.qti.sensormodule.truly_imx471.bin
-odm/lib64/camera/com.qti.tuned.holitech_gc02m1b.bin
-odm/lib64/camera/com.qti.tuned.qtech_imx481.bin
-odm/lib64/camera/com.qti.tuned.semco_imx586.bin
-odm/lib64/camera/com.qti.tuned.shine_gc5035.bin
-odm/lib64/camera/com.qti.tuned.truly_imx471.bin
-odm/lib64/camera/com.qti_kebab.sensor.gc02m1b.so
-odm/lib64/camera/com.qti_kebab.sensor.gc5035.so
-odm/lib64/camera/com.qti_kebab.sensor.imx471.so
-odm/lib64/camera/com.qti_kebab.sensor.imx481.so
-odm/lib64/camera/com.qti_kebab.sensor.imx586.so
+odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/hi846
+odm/etc/camera/config/imx471
+odm/etc/camera/config/oplus_camera_aps_config
+odm/etc/camera/config/oplus_camera_config
+odm/etc/camera/config/ov02b
+odm/etc/camera/config/s5kgw1
+odm/etc/camera/CameraHWConfiguration.config
+odm/etc/camera/camera_engmode.xml
+odm/etc/camera/settings_fdc.txt
+odm/lib64/camera/com.qti.sensor.hi846.so
+odm/lib64/camera/com.qti.sensor.imx471.so
+odm/lib64/camera/com.qti.sensor.ov02b.so
+odm/lib64/camera/com.qti.sensor.s5kgw1.so
+odm/lib64/camera/com.qti.sensormodule.qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.sensormodule.shine_ov02b.bin
+odm/lib64/camera/com.qti.sensormodule.truly_hi846.bin
+odm/lib64/camera/com.qti.sensormodule.truly_imx471_2169A.bin
+odm/lib64/camera/com.qti.tuned.sm8250_qtech_s5kgw1.bin
+odm/lib64/camera/com.qti.tuned.sm8250_shine_ov02b.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_hi846.bin
+odm/lib64/camera/com.qti.tuned.sm8250_truly_imx471_2169A.bin
 
-# Fingerprint
-odm/vendor/firmware/gfp9638.b00
-odm/vendor/firmware/gfp9638.b01
-odm/vendor/firmware/gfp9638.b02
-odm/vendor/firmware/gfp9638.b03
-odm/vendor/firmware/gfp9638.b04
-odm/vendor/firmware/gfp9638.b05
-odm/vendor/firmware/gfp9638.b06
-odm/vendor/firmware/gfp9638.b07
-odm/vendor/firmware/gfp9638.mdt
-odm/vendor/firmware/gfp9678.b00
-odm/vendor/firmware/gfp9678.b01
-odm/vendor/firmware/gfp9678.b02
-odm/vendor/firmware/gfp9678.b03
-odm/vendor/firmware/gfp9678.b04
-odm/vendor/firmware/gfp9678.b05
-odm/vendor/firmware/gfp9678.b06
-odm/vendor/firmware/gfp9678.b07
-odm/vendor/firmware/gfp9678.mdt
-
-# Iris
-odm/etc/inparm/irissoft/inParm.lst
-odm/etc/inparm/irissoft/inParm1.txt
-odm/etc/inparm/irissoft/inParm10.txt
-odm/etc/inparm/irissoft/inParm11.txt
-odm/etc/inparm/irissoft/inParm12.txt
-odm/etc/inparm/irissoft/inParm13.txt
-odm/etc/inparm/irissoft/inParm13_low_brightness.txt
-odm/etc/inparm/irissoft/inParm14.txt
-odm/etc/inparm/irissoft/inParm14_low_brightness.txt
-odm/etc/inparm/irissoft/inParm15.txt
-odm/etc/inparm/irissoft/inParm15_low_brightness.txt
-odm/etc/inparm/irissoft/inParm16.txt
-odm/etc/inparm/irissoft/inParm16_low_brightness.txt
-odm/etc/inparm/irissoft/inParm17.txt
-odm/etc/inparm/irissoft/inParm17_low_brightness.txt
-odm/etc/inparm/irissoft/inParm18.txt
-odm/etc/inparm/irissoft/inParm18_low_brightness.txt
-odm/etc/inparm/irissoft/inParm2.txt
-odm/etc/inparm/irissoft/inParm3.txt
-odm/etc/inparm/irissoft/inParm4.txt
-odm/etc/inparm/irissoft/inParm4_low_brightness.txt
-odm/etc/inparm/irissoft/inParm5.txt
-odm/etc/inparm/irissoft/inParm5_low_brightness.txt
-odm/etc/inparm/irissoft/inParm6.txt
-odm/etc/inparm/irissoft/inParm6_low_brightness.txt
-odm/etc/inparm/irissoft/inParm7.txt
-odm/etc/inparm/irissoft/inParm7_low_brightness.txt
-odm/etc/inparm/irissoft/inParm8.txt
-odm/etc/inparm/irissoft/inParm8_low_brightness.txt
-odm/etc/inparm/irissoft/inParm9.txt
-odm/etc/inparm/irissoft/inParm9_low_brightness.txt
-odm/etc/inparm/irissoft/mcfCheck.txt
-odm/etc/irissoft.fw
+# Charger
+odm/firmware/fastchg/136730/charging_thermal_config_default.txt
+odm/firmware/fastchg/136730/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/136858/charging_thermal_config_default.txt
+odm/firmware/fastchg/136858/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/136859/charging_thermal_config_default.txt
+odm/firmware/fastchg/136859/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/20161/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/21619/charging_thermal_config_default.txt
+odm/firmware/fastchg/21619/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/2161A/charging_thermal_config_default.txt
+odm/firmware/fastchg/2161A/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/2169A/charging_thermal_config_default.txt
+odm/firmware/fastchg/2169A/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/2169B/charging_thermal_config_default.txt
+odm/firmware/fastchg/2169B/oplus_vooc_fw_rk826.bin
+odm/firmware/fastchg/charging_thermal_config_default.txt
 
 # Display calibration data
 vendor/etc/ltm_config_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/ltm_config_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dsc_cmd_mode_panel.xml
 vendor/etc/qdcm_calib_data_samsung_ams662zs01_dvt_dsc_cmd_mode_panel.xml
+
+# Fingerprint firmware
+odm/vendor/firmware/ancap64.b00
+odm/vendor/firmware/ancap64.b01
+odm/vendor/firmware/ancap64.b02
+odm/vendor/firmware/ancap64.b03
+odm/vendor/firmware/ancap64.b04
+odm/vendor/firmware/ancap64.b05
+odm/vendor/firmware/ancap64.b06
+odm/vendor/firmware/ancap64.b07
+odm/vendor/firmware/ancap64.mdt
+odm/vendor/firmware/goodixfp.b00
+odm/vendor/firmware/goodixfp.b01
+odm/vendor/firmware/goodixfp.b02
+odm/vendor/firmware/goodixfp.b03
+odm/vendor/firmware/goodixfp.b04
+odm/vendor/firmware/goodixfp.b05
+odm/vendor/firmware/goodixfp.b06
+odm/vendor/firmware/goodixfp.b07
+odm/vendor/firmware/goodixfp.mdt
+vendor/firmware/image/opluseid.b00
+vendor/firmware/image/opluseid.b01
+vendor/firmware/image/opluseid.b02
+vendor/firmware/image/opluseid.b03
+vendor/firmware/image/opluseid.b04
+vendor/firmware/image/opluseid.b05
+vendor/firmware/image/opluseid.b06
+vendor/firmware/image/opluseid.b07
+vendor/firmware/image/opluseid.mdt
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
@@ -112,25 +147,41 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
+# NFC
+odm/etc/nfc/libnfc-mtp-SN100.conf_2169B:vendor/etc/libnfc-nxp.conf
+odm/etc/nfc/libnfc-nci.conf_2169B:vendor/etc/libnfc-nci.conf
+odm/lib/libsn100u_fw.so:vendor/lib/libsn100u_fw.so
+
+# Perf
+vendor/lib/vendor.oplus.hardware.performance@1.0.so
+
 # Sensors
-odm/etc/sensor/config/kona_T0_sx9324_0.json
-odm/etc/sensor/config/kona_T0_sx9324up_0.json
-odm/etc/sensor/config/kona_ak991x_0.json
-odm/etc/sensor/config/kona_bmi26x_0.json
-odm/etc/sensor/config/kona_bmp380_0.json
-odm/etc/sensor/config/kona_mmc5603x_0.json
-odm/etc/sensor/config/kona_qrd_alsps.json
 odm/etc/sensor/config/kona_qrd_bmi26x_0.json
 odm/etc/sensor/config/kona_qrd_cct.json
 odm/etc/sensor/config/kona_qrd_cct_rear.json
 odm/etc/sensor/config/kona_qrd_icm4x6xx.json
 odm/etc/sensor/config/kona_qrd_lsm6dso.json
 odm/etc/sensor/config/kona_qrd_sx933x_0.json
-odm/etc/sensor/config/kona_stk2232_0.json
-odm/etc/sensor/config/kona_sx9324_0.json
-odm/etc/sensor/config/kona_sx9324up_0.json
-odm/etc/sensor/config/kona_tcs3408.json
 odm/etc/sensor/sensor_config.json
+
+# Touchscreen firmware
+odm/firmware/tp/21619/FW_S3908_SAMSUNG.img
+odm/firmware/tp/21619/FW_S3908_SAMSUNG_FAE.img
+odm/firmware/tp/21619/LIMIT_S3908_SAMSUNG.img
+
+# Vibrator firmware
+odm/firmware/aw8697_realme_gt_RTP_170_165Hz.bin
+odm/firmware/aw8697_realme_gt_RTP_170_170Hz.bin
+odm/firmware/aw8697_realme_gt_RTP_170_175Hz.bin
+odm/firmware/aw8697_realme_its_realme_RTP_161_165Hz.bin
+odm/firmware/aw8697_realme_its_realme_RTP_161_170Hz.bin
+odm/firmware/aw8697_realme_its_realme_RTP_161_175Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_165Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_170Hz.bin
+odm/firmware/aw8697_realme_jingle_RTP_163_175Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_165Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_170Hz.bin
+odm/firmware/aw8697_realme_tune_RTP_162_175Hz.bin
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
