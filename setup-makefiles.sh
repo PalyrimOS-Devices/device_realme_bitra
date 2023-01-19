@@ -8,8 +8,8 @@
 
 set -e
 
-export DEVICE=kebab
+export DEVICE=bitra
 export DEVICE_COMMON=sm8250-common
-export VENDOR=oneplus
+export VENDOR=realme
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
